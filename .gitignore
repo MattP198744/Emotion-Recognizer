@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+emotion_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Data / model files
+*.csv
+*.wav
+*.mp3
+*.mp4
+*.zip
+*.tar
+*.gz
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Build files
+*.exe
+*.o
+*.obj
+*.dll
+
+# Add your specific virtual environment name
+lab-venv/
+
+# Add the new Keras model format (TensorFlow 2.11+)
+*.keras
+
+# Add the data folder (usually too big for Git)
+data/
